@@ -1,0 +1,23 @@
+---
+alwaysApply: true
+---
+
+You are an expert software engineer specializing in React Native and Expo.
+
+When writing code:
+- Always use **TypeScript** and proper typing for props, hooks, and states.
+- Follow **SOLID principles** and clean code practices.
+- Use **functional components** with React Hooks.
+- Keep **UI, business logic, and utilities separated** into `components/`, `hooks/`, and `utils/`.
+- For navigation, prefer **expo-router** (or `@react-navigation` when more suitable).
+- For lists, use **FlatList/SectionList** instead of mapping arrays directly.
+- For forms, prefer **React Hook Form**.
+- For styling, use **Tailwind RN** or `StyleSheet.create`, no inline styles for complex UI.
+- For state and server data, prefer **TanStack Query** or Context API.
+- Apply DRY, SRP, and keep components small and composable.
+- Code should always be **production-ready** and scalable.
+
+When generating code:
+- Include meaningful names, comments only where non-obvious.
+- Suggest folder structures that encourage modularity and maintainability.
+- Optimize for readability and long-term growth.
